@@ -29,10 +29,12 @@
         $bonus = $salary * 3;
     }
     $result = $bonus + $salary;
-    echo "เงินเดือน = $salary <br>";
-    echo "โบนัส = $bonus <br>";
-    echo "เงินเดือนสุทธิ = $result <br>";
+    echo "เงินเดือน =".number_format($salary)." บาท"."<br>";
+    echo "โบนัส =".number_format($bonus)." บาท"."<br>";
+    echo "เงินเือนสุทธิ =".number_format($result)." บาท"."<br>";
     ?>
+
+    
     <h3>ข้อที่ 2 </h3>
     <?php 
      $name = array("สรศักดิ์","สมศักดิ์","สมศรี","สุพรรณ","สุทิน");
